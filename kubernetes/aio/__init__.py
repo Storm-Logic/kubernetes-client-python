@@ -19,7 +19,8 @@ __version__ = "36.0.0+snapshot"
 import kubernetes.aio.client as client
 import kubernetes.aio.config as config
 import kubernetes.aio.dynamic as dynamic
+import kubernetes.aio.stream as stream
 import kubernetes.aio.utils as utils
 import kubernetes.aio.watch as watch
 
-__all__ = ["client", "config", "dynamic", "utils", "watch"]
+__all__ = ["client", "config", "dynamic", "stream", "utils", "watch"]
